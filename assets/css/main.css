@@ -4,9 +4,22 @@
   src: url('../fonts/icons/IconFont.eot?#iefix') format('eot'), url('../fonts/icons/IconFont.woff2') format('woff2'), url('../fonts/icons/IconFont.woff') format('woff'), url('../fonts/icons/IconFont.ttf') format('truetype'), url('../fonts/icons/IconFont.svg#IconFont') format('svg');
 }
 .icon-base-pseudo,
+.icon-account:before,
+.icon-app:before,
+.icon-code:before,
+.icon-container:before,
+.icon-device:before,
 .icon-explore:before,
+.icon-gift:before,
 .icon-help:before,
-.icon-notification:before {
+.icon-notification:before,
+.icon-people:before,
+.icon-settings-mini:before,
+.icon-settings:before,
+.icon-shopping-cart:before,
+.icon-storage:before,
+.icon-usb:before,
+.icon-vpn:before {
   font-family: "IconFont";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,17 +29,61 @@
   text-decoration: none;
   text-transform: none;
 }
-.icon-explore:before {
+.icon-account:before {
   content: "\E001";
 }
-.icon-help:before {
+.icon-app:before {
   content: "\E002";
 }
-.icon-notification:before {
+.icon-code:before {
   content: "\E003";
+}
+.icon-container:before {
+  content: "\E004";
+}
+.icon-device:before {
+  content: "\E005";
+}
+.icon-explore:before {
+  content: "\E006";
+}
+.icon-gift:before {
+  content: "\E007";
+}
+.icon-help:before {
+  content: "\E008";
+}
+.icon-notification:before {
+  content: "\E009";
+}
+.icon-people:before {
+  content: "\E00A";
+}
+.icon-settings-mini:before {
+  content: "\E00B";
+}
+.icon-settings:before {
+  content: "\E00C";
+}
+.icon-shopping-cart:before {
+  content: "\E00D";
+}
+.icon-storage:before {
+  content: "\E00E";
+}
+.icon-usb:before {
+  content: "\E00F";
+}
+.icon-vpn:before {
+  content: "\E010";
 }
 body {
   font-family: "IconFont";
-  font-size: 50px;
-  color: #ff00ff;
+  font-size: 120px;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+body div {
+  margin: 10px;
 }

@@ -21,9 +21,22 @@
 }
 
 .icon-char(@filename) {
-	@explore: "\E001";
-	@help: "\E002";
-	@notification: "\E003";
+	@account: "\E001";
+	@app: "\E002";
+	@code: "\E003";
+	@container: "\E004";
+	@device: "\E005";
+	@explore: "\E006";
+	@gift: "\E007";
+	@help: "\E008";
+	@notification: "\E009";
+	@people: "\E00A";
+	@settings-mini: "\E00B";
+	@settings: "\E00C";
+	@shopping-cart: "\E00D";
+	@storage: "\E00E";
+	@usb: "\E00F";
+	@vpn: "\E010";
 	
 	content: @@filename;
 }
@@ -37,12 +50,51 @@
 	}
 }
 
+.icon-account {
+	.icon(account);
+}
+.icon-app {
+	.icon(app);
+}
+.icon-code {
+	.icon(code);
+}
+.icon-container {
+	.icon(container);
+}
+.icon-device {
+	.icon(device);
+}
 .icon-explore {
 	.icon(explore);
+}
+.icon-gift {
+	.icon(gift);
 }
 .icon-help {
 	.icon(help);
 }
 .icon-notification {
 	.icon(notification);
+}
+.icon-people {
+	.icon(people);
+}
+.icon-settings-mini {
+	.icon(settings-mini);
+}
+.icon-settings {
+	.icon(settings);
+}
+.icon-shopping-cart {
+	.icon(shopping-cart);
+}
+.icon-storage {
+	.icon(storage);
+}
+.icon-usb {
+	.icon(usb);
+}
+.icon-vpn {
+	.icon(vpn);
 }
