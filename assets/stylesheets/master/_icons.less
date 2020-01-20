@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "IconFont";
+	src: url('../fonts/icons/IconFont.eot');
+	src: url('../fonts/icons/IconFont.eot?#iefix') format('eot'),
+		url('../fonts/icons/IconFont.woff2') format('woff2'),
+		url('../fonts/icons/IconFont.woff') format('woff'),
+		url('../fonts/icons/IconFont.ttf') format('truetype'),
+		url('../fonts/icons/IconFont.svg#IconFont') format('svg');
+}
+
+.icon-base-pseudo {
+	font-family: "IconFont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+.icon-char(@filename) {
+	@explore: "\E001";
+	@help: "\E002";
+	@notification: "\E003";
+	
+	content: @@filename;
+}
+
+.icon(@filename, @insert: before) {
+	@pseudo-selector: ~":@{insert}";
+
+	&@{pseudo-selector} {
+		&:extend(.icon-base-pseudo);
+		.icon-char(@filename);
+	}
+}
+
+.icon-explore {
+	.icon(explore);
+}
+.icon-help {
+	.icon(help);
+}
+.icon-notification {
+	.icon(notification);
+}
