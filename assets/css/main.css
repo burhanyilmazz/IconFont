@@ -6,18 +6,30 @@
 .icon-base-pseudo,
 .icon-account:before,
 .icon-app:before,
+.icon-app2:before,
+.icon-bug:before,
+.icon-clock:before,
 .icon-code:before,
 .icon-container:before,
+.icon-device-settings:before,
 .icon-device:before,
 .icon-explore:before,
 .icon-gift:before,
 .icon-help:before,
+.icon-logout:before,
+.icon-memory:before,
 .icon-notification:before,
+.icon-organisation:before,
 .icon-people:before,
+.icon-phone:before,
+.icon-premium:before,
+.icon-screen:before,
 .icon-settings-mini:before,
 .icon-settings:before,
 .icon-shopping-cart:before,
+.icon-star:before,
 .icon-storage:before,
+.icon-timelapse:before,
 .icon-usb:before,
 .icon-vpn:before {
   font-family: "IconFont";
@@ -35,47 +47,83 @@
 .icon-app:before {
   content: "\E002";
 }
-.icon-code:before {
+.icon-app2:before {
   content: "\E003";
 }
-.icon-container:before {
+.icon-bug:before {
   content: "\E004";
 }
-.icon-device:before {
+.icon-clock:before {
   content: "\E005";
 }
-.icon-explore:before {
+.icon-code:before {
   content: "\E006";
 }
-.icon-gift:before {
+.icon-container:before {
   content: "\E007";
 }
-.icon-help:before {
+.icon-device-settings:before {
   content: "\E008";
 }
-.icon-notification:before {
+.icon-device:before {
   content: "\E009";
 }
-.icon-people:before {
+.icon-explore:before {
   content: "\E00A";
 }
-.icon-settings-mini:before {
+.icon-gift:before {
   content: "\E00B";
 }
-.icon-settings:before {
+.icon-help:before {
   content: "\E00C";
 }
-.icon-shopping-cart:before {
+.icon-logout:before {
   content: "\E00D";
 }
-.icon-storage:before {
+.icon-memory:before {
   content: "\E00E";
 }
-.icon-usb:before {
+.icon-notification:before {
   content: "\E00F";
 }
-.icon-vpn:before {
+.icon-organisation:before {
   content: "\E010";
+}
+.icon-people:before {
+  content: "\E011";
+}
+.icon-phone:before {
+  content: "\E012";
+}
+.icon-premium:before {
+  content: "\E013";
+}
+.icon-screen:before {
+  content: "\E014";
+}
+.icon-settings-mini:before {
+  content: "\E015";
+}
+.icon-settings:before {
+  content: "\E016";
+}
+.icon-shopping-cart:before {
+  content: "\E017";
+}
+.icon-star:before {
+  content: "\E018";
+}
+.icon-storage:before {
+  content: "\E019";
+}
+.icon-timelapse:before {
+  content: "\E01A";
+}
+.icon-usb:before {
+  content: "\E01B";
+}
+.icon-vpn:before {
+  content: "\E01C";
 }
 body {
   font-family: "IconFont";
